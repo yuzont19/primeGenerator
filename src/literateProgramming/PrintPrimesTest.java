@@ -32,6 +32,6 @@ public class PrintPrimesTest {
     String line;
     while ((line = gold.readLine()) != null)
       assertEquals(line, lead.readLine());
-    assertEquals(null, lead.readLine());
+      assertEquals(null, lead.readLine());
   }
 }
